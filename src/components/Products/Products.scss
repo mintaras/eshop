@@ -1,0 +1,17 @@
+.products-list {
+}
+.product {
+  margin-bottom: 32px;
+  max-width: 240px;
+  width: 100%;
+  .ant-card-cover {
+    padding: 20px;
+  }
+  .ant-card {
+    border-radius: 10px;
+  }
+  .ant-card, .ant-card-actions {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
